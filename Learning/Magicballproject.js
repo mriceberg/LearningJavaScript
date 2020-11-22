@@ -28,3 +28,10 @@ if (randomNumber ==0){
 console.log(eightBall);
 
 
+
+// Here is another version of the switch/if..else
+var answers = ["Better not tell you", "Concentrate and ask again", "Reply hazy try again", 
+               "Cannot predict now",  "My reply is no", "Outlook not so good",
+               "Signs point to yes", "Not so sure"];
+var eightBallAnswer = answers[randomNumber];
+console.log(eightBallAnswer);
