@@ -8,30 +8,23 @@ var userQuestion = prompt ("Please ask a question!") ;
 console.log(userName + " asks " + userQuestion);
 var randomNumber = Math.floor(Math.random()* 8);
 var eightBall = "";
-switch (randomNumber){
-    case 0 : 
+if (randomNumber ==0){
     eightBall = "Better not tell you"
-    break;
-    case 1 : 
+} else if (randomNumber==1){
     eightBall = "Concentrate and ask again"
-    break;
-    case 2 :
+} else if (randomNumber==2) {
     eightBall = "Reply hazy try again"
-    break;
-    case 3 :
+} else if (randomNumber==3) {
     eightBall = "Cannot predict now"
-    break;
-    case 4 :
+} else if (randomNumber==4){
     eightBall = "My reply is no"
-    break;
-    case 5 :
+} else if (randomNumber==5) {
     eightBall = "Outlook not so good"
-    break;
-    case 6 :
+} else if (randomNumber==6){
     eightBall = "Signs point to yes"
-    break;
-    case 7 :
+} else if (randomNumber==7){
     eightBall = "Not so sure"
-    break;
-}
-console.log( eightBall);
+} else {eightBall= "try again"};
+console.log(eightBall);
+
+
