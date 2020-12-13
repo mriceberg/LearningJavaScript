@@ -85,7 +85,7 @@ function areAllCharactersUnique (someText){
 console.log(areAllCharactersUnique("Shazeera"));
 console.log(areAllCharactersUnique("ABba"));
 console.log(areAllCharactersUnique("abcdefghijklmnopqrstuvwxyz"));
-*/
+
 
 //Identiy longest word in a string
 //forloop, if statement, split method
@@ -114,3 +114,31 @@ var myLongestBestFriend = longestName(myBestFriends);
 console.log(myLongestBestFriend);
 var word = longestName(mySentence);
 console.log(word);
+
+
+var myCats = ["Minou","Coco","Blunder", "Asslicker", "Jerky"];
+for ( i = 0; i < myCats.length ; i++) {
+    var myCat = myCats[i]; 
+    console.log(myCats[i]);
+} 
+var minNumber = 5 ;
+var maxNumber = 15 ;
+var accumulator = 0 ;
+for (i = minNumber; i <= maxNumber; i++){
+    accumulator = accumulator + i ;
+    //console.log (`${i}: ${accumulator}`);
+} 
+console.log(accumulator);
+*/
+function sumOfNumbers (fromNumber,toNumber){
+    var accumulator = 0;
+    for (i = fromNumber; i <= toNumber; i++){
+        accumulator = accumulator + i ;
+    } 
+    return accumulator;
+} 
+console.log(sumOfNumbers(0,10));
+console.log(sumOfNumbers(0,100));
+console.log(sumOfNumbers(5,95));
+
+
